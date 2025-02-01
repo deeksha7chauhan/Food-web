@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bread - The Indian Food Truck</title>
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #d8eee4;
+        }
+
+        header {
+            font-family:cursive ;
+            background-color: #076050;
+            color: rgb(233, 247, 255);
+            text-align: center;
+            padding: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            background-color: #021144;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            display: block;
+            color: rgb(255, 199, 251);
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #a8ab98;
+            color: black;
+        }
+
+        .options {
+            .dish:hover {
+                transform: scale(1.05);
+                transition: transform 0.3s ease-in-out;
+            }
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+
+        .dish {
+            background-color: rgb(247, 232, 232);
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .dish img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .dish h3 {
+            margin-top: 10px;
+            font-size: 1.5em;
+        }
+
+        .dish p {
+            margin: 5px 0;
+        }
+
+        .price {
+            font-weight: bold;
+            color: rgb(90, 2, 123);
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marine Munchies</h1>
+        <p>Seafood Delights - Fresh, flavorful, and straight from the sea!!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="meat.html">Meatlicious Delights</a>
+        <a href="seafood.html">Marine Munchies</a>
+        <a href="Veg.html">Farm-to-Table</a>
+        <a href="bread.html">The Bread House</a>
+        <a href="soup.html">Bowl of Warmth</a>
+        <a href="drink.html">Sips & Spritzers</a>
+        <a href="dessert.html">Sweet Tooth</a>
+    </nav>
+
+    <div class="options">
+        <div class="dish">
+            <img src="Images/seafood/HI-RESC_Naxi-Grilled-Fish-768x1024.jpg" alt="fish">
+            <h3>Grilled Fish</h3>
+            <p>Jeremy Pang’s crispy fried fish with peanuts, coriander, chillies and ginger</p>
+            <p class="price">$7.99</p>
+        </div>
+
+        <div class="dish">
+            <img src="Images/seafood/Easy-Cajun-Shrimp-2-1200.jpg" alt="">
+            <h3>Cajum Shrimp</h3>
+            <p>Shrimp tossed in homemade butter, is a family favorite with bold, flavorful heat.</p>
+            <p class="price">$6.99</p>
+        </div>
+        <div class="dish">
+            <img src="Images/seafood/lobster-thermidor-FT-RECIPE0621-74e5a3b2e07d488bb03b5868b389877f.jpg" alt="">
+            <h3>Lobster Thermidor</h3>
+            <p>ender lobster, a creamy Sherry sauce, and cheese, broiled to perfection.</p>
+            <p class="price">$9.99</p>
+        </div>
+        <div class="dish">
+            <img src="Images/seafood/oyester.jpg" alt="">
+            <h3>Barbecued Oyster</h3>
+            <p>Uni, lemon, smoky paprika, and butter create a bold topping for roasted oysters.</p>
+            <p class="price">$11.99</p>
+        </div>   
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 The Indian Food Truck By DC. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
